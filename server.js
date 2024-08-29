@@ -40,8 +40,10 @@ const InsertWordData = async (data) => {
 // database connection
 const dbURI = process.env.MongoDB_URI;
 const PORT = process.env.PORT;
+
+
 mongoose.connect(dbURI)
-  .then((result) => app.listen(PORT,()=> {console.log(`Server running on http://localhost:3000`);}))
+  .then((result) => app.listen(PORT,()=> {console.log(`Server running on http://213.210.36.56:3000`);}))
   .catch((err) => console.log(err));
 
 
