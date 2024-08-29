@@ -3,7 +3,7 @@ const innerContainer = document.getElementById('innerContainer');
 const getData = async (date) => {
 
     
-    const data = await fetch(`http://localhost:3000/words/${date}`);
+    const data = await fetch(`http://213.210.36.56:3000/words/${date}`);
     const json = await data.json();
     console.log(json);
 
