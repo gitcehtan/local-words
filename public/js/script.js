@@ -56,7 +56,7 @@ form.addEventListener('submit', handleWord);
     let errors ={};
 
       try {
-          const response = await fetch('http://213.210.36.56:3000/', {
+          const response = await fetch('http://localhost:3000/', {
               method: 'POST',
               headers: {
                   'Content-Type': 'application/json'
