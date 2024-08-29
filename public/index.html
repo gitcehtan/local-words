@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="/">WORDS DAILY</a>
+        <ul class="list">
+          <li><a href="/">HOME</a></li>
+          <li><a href="/wordlist">WORD LIST</a></li>
+          <li><a href="/contact">CONTACT</a></li>
+          <li><a href="/projects">PROJECTS</a></li>
+        </ul>
+        <button class="search">Search</button>
+        <button class="menu">Menu</button>
+    </nav>
+
+    <main>
+        <!-- <button id="show" ><a  href="/wordlist">See WordList</a></button> -->
+        <div id="addWord">
+            <form id="form">
+                <div id="formData">
+                    <input type="text" id="word" placeholder="Enter the Word">
+                    <p class="error" id="word-error"></p>
+                     
+                    <input type="text" id="meaning" placeholder="Enter the Meaning">
+                    <p class="error" id="meaning-error"></p>
+                    
+                    <input type="text" id="synonyms" placeholder="Enter the Synonyms">
+                    <p></p>
+
+                    <input type="text" id="antonyms" placeholder="Enter the Antonyms">
+                    <p></p>
+
+                    <input type="text" id="example" placeholder="Enter the Example">
+                    <p></p>
+
+                    <button id="dictBtn" type="submit">Submit</button>
+                </div>
+    
+            </form>
+        </div>
+
+        <div id="wordOfDay">
+            <p>Word Of Day</p>
+        </div>
+        
+    </main>
+<script src="./js/script.js"></script>
+</body>
+</html>
